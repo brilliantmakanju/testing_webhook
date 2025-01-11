@@ -67,6 +67,9 @@ async function testEmailWithMailSlurp() {
 
     console.log("DEV is all ")
 
+
+
+    
     } catch (error) {
         console.error("Error with MailSlurp:", error);
     }
