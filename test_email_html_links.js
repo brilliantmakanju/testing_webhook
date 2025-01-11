@@ -55,9 +55,3 @@ ss
 sa
 s
 
-
-
-
-SVGAnimatedAngledadada
-a
-s
