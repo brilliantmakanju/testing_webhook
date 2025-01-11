@@ -39,6 +39,8 @@ async function testEmailWithMailSlurp() {
    
 }
 
+
+
 testEmailWithMailSlurp();
 
 
