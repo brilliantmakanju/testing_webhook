@@ -63,7 +63,7 @@ async function testEmailWithMailSlurp() {
 
     //     // const otpMatch = email.body.match(/\b\d{10}\b/); // Match a 10-digit OTP
     //     // const otp = otpMatch ? otpMatch[0] : null;
-    //     // console.log("Extracted OTP:", otp);
+        // console.log("Extracted OTP:", otp);
 
     console.log("DEV is all ")
 
