@@ -37,6 +37,9 @@ async function testEmailWithMailSlurp() {
         console.error("Error with MailSlurp:", error);
    }  
 
+
+
+   
 }
 
 testEmailWithMailSlurp();
