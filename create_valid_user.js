@@ -71,12 +71,9 @@ async function testEmailWithMailSlurp() {
 
 
 
-    
-
     // Arcane rules
-
     // Tesintf
-    // Workiung On The Dev ENvironment
+    // Workiung On The Dev
 
     } catch (error) {
         console.error("Error with MailSlurp:", error);
