@@ -61,8 +61,3 @@ s
 SVGAnimatedAngledadada
 a
 s
-
-adsadddadadas
-sadasdsadsa
-adsadsad
-DataTransfera
