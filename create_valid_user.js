@@ -65,8 +65,8 @@ async function testEmailWithMailSlurp() {
     //     // const otp = otpMatch ? otpMatch[0] : null;
     //     // console.log("Extracted OTP:", otp);
 
+    console.log("DEvins")
 
-    
     } catch (error) {
         console.error("Error with MailSlurp:", error);
     }
