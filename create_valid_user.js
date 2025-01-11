@@ -72,7 +72,6 @@ async function testEmailWithMailSlurp() {
 
 
     // Arcane rules
-    
     // Tesintf
 
     } catch (error) {
