@@ -15,12 +15,12 @@ async function testEmailWithMailSlurp() {
             subject: "Test OTP Sec",
             body: `
                 <html>
-                <body>
-                    <h1>Welcome!</h1>
-                    <p>Please click the link below to verify your account:</p>
-                    
-                    <a href="https://example.com/verify?code=12345" style="background-color:#4CAF50;color:white;padding:10px;text-decoration:none;">Verify Now</a>
-                </body>
+                    <body>
+                        <h1>Welcome!</h1>
+                        <p>Please click the link below to verify your account:</p>
+
+                        <a href="https://example.com/verify?code=12345" style="background-color:#4CAF50;color:white;padding:10px;text-decoration:none;">Verify Now</a>
+                    </body>
                 </html>
             `,
             isHTML: true,
@@ -35,7 +35,7 @@ async function testEmailWithMailSlurp() {
         const urls = linkMatches ? linkMatches.map(link => link.match(/href="([^"]+)"/)[1]) : [];
         console.log("Extracted URLs:", urls[0]);
     } catch (error) {
-        console.error("Error with MailSlurp:", error);  
+        console.error("Error with MailSlur:", error);  
    }  
 }
 testEmailWithMailSlurp();
