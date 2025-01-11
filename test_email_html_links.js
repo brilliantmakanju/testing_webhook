@@ -74,18 +74,6 @@ aas
 daadsasdadsad
 sas
 daasdadasddsada
-assds
-sadddd
-adsadddadadasadasass
-sdsd
-sdsa
-ad
-asdada
-sdasjkdadjjdasjdsakjsa
-adas
-dkaksdksd
-asd
-
 
 
 
