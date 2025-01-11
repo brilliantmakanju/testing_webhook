@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { MailSlurp } from 'mailslurp-client';
+import { EmailFeatureSupportResultDetectedFeaturesEnum, MailSlurp, NewFakeEmailAddressResultFromJSON, SenderFromJSON } from 'mailslurp-client';
 
 dotenv.config();
 
@@ -49,13 +49,51 @@ asdads
 
     a
     d
+    asasaadasddddddddaffklksdfklkllw90ef3099i0aiskdofa
+    d
+
+    as
+    d
+
     a
+    d
+
+    a
+    fas
+    falses
+    NewFakeEmailAddressResultFromJSONdsf
+    sda
+    f
+    s
+    f
+    SVGFEDiffuseLightingElementdf
+    d
+    fds
+    af
+    SafeArraysa
+    FileSystemFileEntryasdf
+    sad
+    fdsf
+    saf
+    s
+    f
+    sdf
+    ds
+    fsd
+    f
+    SenderFromJSONs
+    EmailFeatureSupportResultDetectedFeaturesEnumsadf
+    sd
+    fds
+    fdsa
+    fdsaf
+    sd
     dasads
     d
 
     a
     s
-    
+
 }
 
 testEmailWithMailSlurp();
