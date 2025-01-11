@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { EmailFeatureSupportResultDetectedFeaturesEnum, MailSlurp, NewFakeEmailAddressResultFromJSON, SenderFromJSON } from 'mailslurp-client';
+import { EmailFeatureSupportResultDetectedFeaturesEnum, GetAliasThreadsSortEnum, MailSlurp, NewFakeEmailAddressResultFromJSON, SenderFromJSON } from 'mailslurp-client';
 
 dotenv.config();
 
@@ -50,6 +50,25 @@ d
 d
 add
 
+a
+d
+d
+addEventListenerad
+sad
+s
+d
+d
+s
+d
+
+
+a
+
+
+addEventListenerada
+DataTransferd
+d
+GetAliasThreadsSortEnuma
 
 
 asas
