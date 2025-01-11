@@ -12,10 +12,11 @@ async function testEmailWithMailSlurp() {
         await mailslurp.sendEmail(inbox.id, {
             to: [inbox.emailAddress],
             from: inbox.emailAddress,
-            subject: "Test OTP",
+            subject: "Test OTP Sec",
             body: `
                 <html>
                 <body>
+
                     <h1>Welcome!</h1>
                     <p>Please click the link below to verify your account:</p>
                     <a href="https://example.com/verify?code=12345" style="background-color:#4CAF50;color:white;padding:10px;text-decoration:none;">Verify Now</a>
@@ -36,7 +37,6 @@ async function testEmailWithMailSlurp() {
     } catch (error) {
         console.error("Error with MailSlurp:", error);  
    }  
-   
 }
 testEmailWithMailSlurp();
 
