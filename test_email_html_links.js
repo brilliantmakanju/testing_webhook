@@ -35,12 +35,8 @@ async function testEmailWithMailSlurp() {
         console.log("Extracted URLs:", urls[0]);
     } catch (error) {
         console.error("Error with MailSsslurp:", error);
-   }
-   
+   }  
 }
-
-
-
 testEmailWithMailSlurp();
 
 
