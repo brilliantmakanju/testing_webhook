@@ -39,7 +39,16 @@ async function testEmailWithMailSlurp() {
    }  
 }
 testEmailWithMailSlurp();
+DataTransfer
+a
+d
+a
+asd
 
+a
+d
+d
+add
 
 
 
