@@ -36,7 +36,7 @@ async function testEmailWithMailSlurp() {
     } catch (error) {
         console.error("Error with MailSsslurp:", error);
 
-/// Fixed SOmething big212212 dalsdadasd
+/// Fixed SOmething big212212 
 
         
 
