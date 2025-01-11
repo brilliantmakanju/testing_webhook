@@ -29,13 +29,13 @@ async function testEmailWithMailSlurp() {
         const email = await mailslurp.waitForLatestEmail(inbox.id, 30000);
         console.log("Email body:", email.body);
 
+        
         const htmlContent = email.body;
         const linkMatches = htmlContent.match(/<a[^>]+href="([^"]+)"/g);
         const urls = linkMatches ? linkMatches.map(link => link.match(/href="([^"]+)"/)[1]) : [];
         console.log("Extracted URLs:", urls[0]);
     } catch (error) {
-        console.error("Error with MailSlurp:", error);
-        
+        console.error("Error with MailSlurp:", error);  
    }  
 }
 testEmailWithMailSlurp();
