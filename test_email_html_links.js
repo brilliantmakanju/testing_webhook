@@ -21,11 +21,12 @@ async function testEmailWithMailSlurp() {
 
                         <a href="https://example.com/verify?code=12345" style="background-color:#4CAF50;color:white;padding:10px;text-decoration:none;">Verify Now</a>
                     </body>
+                    
                 </html>
             `,
             isHTML: true,
         });
-        
+
         console.log("Email sent to:", inbox.emailAddress);
 
         const email = await mailslurp.waitForLatestEmail(inbox.id, 30000);
