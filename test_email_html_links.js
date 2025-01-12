@@ -26,9 +26,6 @@ async function testEmailWithMailSlurp() {
             `,
             isHTML: true,
         });
-
-        
-
         console.log("Email sent to:", inbox.emailAddress);
         const email = await mailslurp.waitForLatestEmail(inbox.id, 30000);
         console.log("Email body:", email.body);
