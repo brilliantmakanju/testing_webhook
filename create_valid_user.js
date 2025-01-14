@@ -3,6 +3,8 @@ import { MailSlurp } from 'mailslurp-client';
 
 dotenv.config();
 
+
+
 const mailslurp = new MailSlurp({ apiKey: process.env.EMAIL_MAIL_SLURP });
 // 33ca1bb5-c831-4b69-b2da-a79d99c316ca     8
 // 7cc46800-8d1d-42a6-b242-e59f7b3db234     6
