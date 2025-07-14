@@ -2,11 +2,3 @@
 Hey yo
 Hunk
 
-
-
-# Ho
-
-
-a
-s
-asadadadad
